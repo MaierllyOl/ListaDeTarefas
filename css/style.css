@@ -1,0 +1,65 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body,html{
+    flex-wrap: nowrap;
+    height: 100%;
+    background-color: #8d5185;
+}
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    background-color: #f3e6e8da; 
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+
+    
+
+}
+
+.sembolinha {
+    list-style: none;
+    padding: 0;
+}
+
+.sembolinha li {
+    padding: 5px;
+    border-bottom: #000 1px dashed;
+}
+
+.sembolinha li input {
+    width: initial;
+    margin-right: 5px;
+}
+
+.lista_tarefas li.marcado {
+    text-decoration: line-through;
+    color: #a3d2ca;
+} 
+
+#nova_tarefa {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px; 
+}
+
+.container input {
+	background-color: #fff;
+	color: black;
+	border-bottom-color:#ccc;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	margin-bottom: 10px;
+    border: none;
+}
+
+.container input:hover {
+	background-color: #f6f5f5;
+	color: black;
+  border: none;
+}
